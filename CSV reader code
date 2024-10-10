@@ -1,0 +1,6 @@
+python3
+import csv
+>>> with open("sensor_data.csv", "r") as sens_data_read:
+...     reader = csv.reader(sens_data_read)
+...     for info in reader:
+...             print(info)
