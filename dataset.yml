@@ -1,0 +1,10 @@
+# https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data
+path: ./data # dataset root dir
+# all relative to 'path'
+train: train/images # training images
+val: val/images # validation images
+test: # test/images # test images (optional)
+
+names:
+  0: crop
+  # 1: weed
