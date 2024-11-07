@@ -25,7 +25,7 @@ yolo detect train model=yolo11s.pt data="./dataset.yml" cache=disk
 ### Prediction
 
 ```pwsh
-yolo predict model=runs\detect\train\weights\best.pt source=images\ave-0506-0007.jpg
+python3 ./run.py --image ./images/ave-0506-0007.jpg
 ```
 
 ![prediction results](results.jpg)
